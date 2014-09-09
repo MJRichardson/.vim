@@ -14,3 +14,6 @@ colorscheme solarized
 set tags=./tags;/
 "open definitions in new tab
 map <C-\> :tab split<CR>:exec("tag ".expand("<cword>"))<CR>
+
+"tagbar
+nmap <F8> :TagbarToggle<CR>
